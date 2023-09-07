@@ -5,9 +5,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
-import React from "react";
 import LogoIcon from "../Icons/logo";
 
 export default function NavBar() {
