@@ -9,7 +9,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Profile, profiles } from "@/data/profiles";
+import { type Profile, profiles } from "@/data/profiles";
 import { searchInArray } from "@/lib/searchInArray";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React from "react";
@@ -45,7 +45,7 @@ export default function DevsPage() {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="flex w-full flex-row items-start justify-evenly gap-2 p-2"
+          className="flex w-full flex-col items-start justify-evenly gap-2 p-2 sm:flex-row"
         >
           <FormField
             control={form.control}
@@ -59,10 +59,12 @@ export default function DevsPage() {
               </FormItem>
             )}
           />
-          <Button type="submit">Search</Button>
+          <Button className="w-full sm:w-36" type="submit">
+            Search
+          </Button>
         </form>
       </Form>
-      <div className="flex flex-row flex-wrap items-center justify-start gap-6 p-6">
+      <div className="flex flex-row flex-wrap items-center justify-evenly gap-6 p-6">
         {filteredProfiles.length === 0 && (
           <div className="flex w-full flex-col items-center justify-center text-center">
             <h1 className="text-2xl font-bold">No results found.</h1>
