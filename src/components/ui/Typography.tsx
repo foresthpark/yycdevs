@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 const typographyVariants = cva("transition-colors", {
   variants: {
     type: {
-      default: "text-primary",
-      subtitle: "text-secondary",
+      default: "text-black",
+      subtitle: "text-black/50",
     },
     size: {
       default: "text-base",
