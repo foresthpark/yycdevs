@@ -11,6 +11,7 @@ Welcome to YYC Devs! We appreciate your interest in the project. This README wil
   - [Add your profile](#add-your-profile)
   - [Commit Your Changes](#commit-your-changes)
   - [Create a Pull Request (PR)](#create-a-pull-request-pr)
+  - [TODOS:](#todos)
 
 ## Fork the Repository
 
@@ -51,3 +52,9 @@ After making your changes, commit them to your local repository with descriptive
 Your PR will now be submitted for review. Be prepared to address any feedback or questions from the maintainers during the review process.
 
 Thank you for adding your profile to YYC Devs!!
+
+## TODOS:
+
+- [ ] Add Skills to Profile
+- [ ] Add dark mode
+- [ ] Some more stuffs
