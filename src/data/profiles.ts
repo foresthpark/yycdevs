@@ -21,4 +21,15 @@ export const profiles: Profile[] = [
     github: "https://github.com/foresthpark",
     resume: "https://resume.forestp.dev",
   },
+  {
+    name: "Yves Dorfsman",
+    title: "𝗧ype𝗦cript, 𝗥eact, 𝗝ava𝗦cript, 𝗦𝗤𝗟, 𝗣ython, 𝗥ust, Linux, 𝑇𝘦𝑐𝘩𝑛𝘪𝑐𝘢𝑙 𝑆𝘶𝑝𝘱𝑜𝘳𝑡, 𝘋𝘦𝘷𝘖𝘱𝘴, 𝘚𝘺𝘴𝘢𝘥𝘮𝘪𝘯",
+    avatarImgSrc:
+      "https://secure.gravatar.com/avatar/ff251bd0806aa3e700db933d599dadd4?s=300",
+    email: "yves@zioup.com",
+    website: "https://yves.zioup.com/",
+    linkedin: "https://www.linkedin.com/in/yvesdorfsman",
+    github: "https://github.com/dorfsmay",
+    resume: "https://yves.zioup.com/work/resume",
+  },
 ];
