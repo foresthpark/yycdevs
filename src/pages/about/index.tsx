@@ -3,34 +3,29 @@ import React from "react";
 
 const values = [
   {
-    name: "Be world-class",
+    name: "Fork the Repository",
     description:
-      "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
+      "Visit the Github repo and fork the repository to your own account.",
   },
   {
-    name: "Share everything you know",
+    name: "Add your Information to the JSON",
     description:
-      "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
+      "Open the file './src/data/profiles.ts' and add your information according to the 'Profile' interface.",
   },
   {
-    name: "Always learning",
+    name: "Commit Your Changes",
     description:
-      "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
+      "After making your changes, commit them to your local repository with descriptive commit messages.",
   },
   {
-    name: "Be supportive",
+    name: "Create a Pull Request (PR)",
     description:
-      "Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.",
+      "Visit the main page of your forked repository on GitHub and click the 'New Pull Request' button. Provide a descriptive title and comment explaining your changes in the PR description and then click the 'Create Pull Request' button",
   },
   {
-    name: "Take responsibility",
+    name: "Wait for PR Approval",
     description:
-      "Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.",
-  },
-  {
-    name: "Enjoy downtime",
-    description:
-      "Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.",
+      "After your PR is approved, your profile will be added to the list!",
   },
 ];
 

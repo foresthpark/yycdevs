@@ -37,7 +37,7 @@ git clone https://github.com/[your-username]/[your-project-name].git
 
 ## Commit Your Changes
 
-After making your changes, commit them to your local repository with descriptive commit messages. Use the following commands as an example:
+After making your changes, commit them to your local repository with descriptive commit messages.
 
 ## Create a Pull Request (PR)
 
