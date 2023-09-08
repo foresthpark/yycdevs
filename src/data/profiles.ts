@@ -32,4 +32,15 @@ export const profiles: Profile[] = [
     github: "https://github.com/dorfsmay",
     resume: "https://yves.zioup.com/work/resume",
   },
+  {
+    name: "Danielle Bastien",
+    title: "Web Accessibility | Design Systems | Front-End Development",
+    avatarImgSrc:
+      "https://img.daniellemlbastien.com/dmlb-avatar.png",
+    email: "info@daniellemlbastien.com",
+    website: "https://daniellemlbastien.com/",
+    linkedin: "https://www.linkedin.com/in/daniellemlbastien",
+    github: "https://github.com/dmlb",
+    resume: "https://daniellemlbastien.com/",
+  },
 ];
