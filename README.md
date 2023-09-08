@@ -1,28 +1,56 @@
-# Create T3 App
+# Contributing to [Your Project Name]
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Welcome to [Your Project Name]! We appreciate your interest in contributing to our open-source project. This README will guide you through the process of forking the repository, making code changes, and submitting a pull request (PR).
 
-## What's next? How do I make an app with this?
+## Table of Contents
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- [Contributing to \[Your Project Name\]](#contributing-to-your-project-name)
+  - [Table of Contents](#table-of-contents)
+  - [Fork the Repository](#fork-the-repository)
+  - [Clone Your Fork](#clone-your-fork)
+  - [Add your profile](#add-your-profile)
+  - [Commit Your Changes](#commit-your-changes)
+  - [Create a Pull Request (PR)](#create-a-pull-request-pr)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Fork the Repository
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Click the "Fork" button at the top-right corner of this repository's page. This will create a copy of the repository under your GitHub account.
 
-## Learn More
+![Fork Button](fork-button.png)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Clone Your Fork
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Clone the repository to your local machine using the following command, replacing `[your-username]` with your GitHub username:
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```bash
+git clone https://github.com/[your-username]/[your-project-name].git
+```
 
-## How do I deploy this?
+## Add your profile
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+1. Open the `profiles.ts` file in the following route:
+
+```
+./src/data/profiles.ts
+```
+
+2. Add your profile based on the `Profile` TS interface
+3. Save your changes
+
+## Commit Your Changes
+
+After making your changes, commit them to your local repository with descriptive commit messages. Use the following commands as an example:
+
+## Create a Pull Request (PR)
+
+1. Visit the main page of your forked repository on GitHub.
+2. Click the "New Pull Request" button.
+
+3. Compare the changes you made in your fork with the original repository's main branch.
+4. Provide a descriptive title and comment explaining your changes in the PR description.
+5. Click the "Create Pull Request" button.
+
+Your PR will now be submitted for review. Be prepared to address any feedback or questions from the maintainers during the review process.
+
+Thank you for contributing to [Your Project Name]!
+Replace [Your Project Name], [your-username], [your-project-name], and the image URLs with your actual project information.
