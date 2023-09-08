@@ -50,4 +50,4 @@ After making your changes, commit them to your local repository with descriptive
 
 Your PR will now be submitted for review. Be prepared to address any feedback or questions from the maintainers during the review process.
 
-Thank you for adding your profile to YYC Devs!
+Thank you for adding your profile to YYC Devs!!
