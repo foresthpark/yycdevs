@@ -25,6 +25,7 @@ const formSchema = z.object({
 const searchFields: (keyof Profile)[] = ["name", "title"];
 
 export default function DevsPage() {
+  profiles.sort(() => Math.random() - 0.5);
   const [filteredProfiles, setFilteredProfiles] = React.useState(profiles);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
