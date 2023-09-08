@@ -1,10 +1,10 @@
-# Contributing to [Your Project Name]
+# Adding your profile to YYC Devs
 
-Welcome to [Your Project Name]! We appreciate your interest in contributing to our open-source project. This README will guide you through the process of forking the repository, making code changes, and submitting a pull request (PR).
+Welcome to YYC Devs! We appreciate your interest in the project. This README will guide you through the process of forking the repository, making code changes, and submitting a pull request (PR).
 
 ## Table of Contents
 
-- [Contributing to \[Your Project Name\]](#contributing-to-your-project-name)
+- [Adding your profile to YYC Devs](#adding-your-profile-to-yyc-devs)
   - [Table of Contents](#table-of-contents)
   - [Fork the Repository](#fork-the-repository)
   - [Clone Your Fork](#clone-your-fork)
@@ -15,8 +15,6 @@ Welcome to [Your Project Name]! We appreciate your interest in contributing to o
 ## Fork the Repository
 
 Click the "Fork" button at the top-right corner of this repository's page. This will create a copy of the repository under your GitHub account.
-
-![Fork Button](fork-button.png)
 
 ## Clone Your Fork
 
@@ -52,5 +50,4 @@ After making your changes, commit them to your local repository with descriptive
 
 Your PR will now be submitted for review. Be prepared to address any feedback or questions from the maintainers during the review process.
 
-Thank you for contributing to [Your Project Name]!
-Replace [Your Project Name], [your-username], [your-project-name], and the image URLs with your actual project information.
+Thank you for adding your profile to YYC Devs!
