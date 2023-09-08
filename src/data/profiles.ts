@@ -11,8 +11,8 @@ export interface Profile {
 
 export const profiles: Profile[] = [
   {
-    name: "Forest Park",
-    title: "Software Engineer",
+    name: "SouthernFried Dev",
+    title: "Fried Chicken Enthusiast",
     avatarImgSrc:
       "https://www.thecountrycook.net/wp-content/uploads/2021/02/thumbnail-Southern-Fried-Chicken-scaled.jpg",
     email: "foresthpark@gmail.com",
