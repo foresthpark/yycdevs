@@ -43,4 +43,15 @@ export const profiles: Profile[] = [
     github: "https://github.com/dmlb",
     resume: "https://daniellemlbastien.com/",
   },
+  {
+    name: "Derek Kim",
+    title: "iOS | Flutter Developer",
+    avatarImgSrc:
+      "https://derek.kim/img/profile.jpg",
+    email: "dk@derek.kim",
+    website: "https://derek.kim",
+    linkedin: "https://www.linkedin.com/in/derekhskim",
+    github: "https://github.com/derekhskim",
+    resume: "https://derek.kim/external/resume.pdf",
+  },
 ];
