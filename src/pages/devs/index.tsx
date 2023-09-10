@@ -9,8 +9,9 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { type Profile, profiles } from "@/data/profiles";
+import { profiles, type Profile } from "@/data/profiles";
 import { searchInArray } from "@/lib/searchInArray";
+import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -25,6 +26,7 @@ const formSchema = z.object({
 const searchFields: (keyof Profile)[] = ["name", "title"];
 
 export default function DevsPage() {
+  const [isSearching, setIsSearching] = React.useState(false);
   const [filteredProfiles, setFilteredProfiles] = React.useState(profiles);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -34,11 +36,17 @@ export default function DevsPage() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSearching(true);
     const filteredDevs = searchInArray(profiles, values.search, searchFields);
     setFilteredProfiles(filteredDevs);
     form.reset();
     return;
   }
+
+  const onResetSearch = () => {
+    setIsSearching(false);
+    setFilteredProfiles(profiles);
+  };
 
   return (
     <div className="min-h-full w-full">
@@ -59,8 +67,15 @@ export default function DevsPage() {
               </FormItem>
             )}
           />
-          <Button className="w-full sm:w-36" type="submit">
-            Search
+          <Button
+            className={`w-full sm:w-36 ${
+              isSearching ? "text-destructive" : ""
+            }`}
+            type="submit"
+            variant={isSearching ? "border" : "default"}
+            onClick={isSearching ? onResetSearch : undefined}
+          >
+            {isSearching ? "Reset" : "Search"}
           </Button>
         </form>
       </Form>
@@ -68,12 +83,12 @@ export default function DevsPage() {
         {filteredProfiles.length === 0 && (
           <div className="flex w-full flex-col items-center justify-center text-center">
             <h1 className="text-2xl font-bold">No results found.</h1>
-            <Button
+            {/* <Button
               onClick={() => setFilteredProfiles(profiles)}
               className="mt-2"
             >
               Reset
-            </Button>
+            </Button> */}
           </div>
         )}
         {filteredProfiles.map((profile) => (
