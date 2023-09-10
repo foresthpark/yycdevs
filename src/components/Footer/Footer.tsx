@@ -13,7 +13,7 @@ const navigation = [
   },
   {
     name: "GitHub",
-    href: "",
+    href: "https://github.com/foresthpark/yycdevs",
     icon: GitHubLogoIcon,
   },
   {
