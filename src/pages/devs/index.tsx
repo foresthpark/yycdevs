@@ -26,7 +26,7 @@ const formSchema = z.object({
 const searchFields: (keyof Profile)[] = ["name", "title"];
 
 export default function DevsPage() {
-  const [isSearching, setIsSearching] = React.useState(true);
+  const [isSearching, setIsSearching] = React.useState(false);
   const [filteredProfiles, setFilteredProfiles] = React.useState(profiles);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
