@@ -54,4 +54,15 @@ export const profiles: Profile[] = [
     github: "https://github.com/derekhskim",
     resume: "https://derek.kim/external/resume.pdf",
   },
+  {
+    name: "Ace Nasir",
+    title: "Web | Wordpress Developer",
+    avatarImgSrc:
+      "http://acenasir.com/assets/img/profile.jpg",
+    email: "ace.nasir@me.com",
+    website: "http://acenasir.com",
+    linkedin: "https://www.linkedin.com/in/ace-nasir-abb47249/",
+    github: "https://github.com/acenasir/yycdevs",
+    resume: "http://acenasir.com",
+  },
 ];
