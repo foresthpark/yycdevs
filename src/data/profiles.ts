@@ -62,7 +62,7 @@ export const profiles: Profile[] = [
     email: "ace.nasir@me.com",
     website: "http://acenasir.com",
     linkedin: "https://www.linkedin.com/in/ace-nasir-abb47249/",
-    github: "https://github.com/acenasir/yycdevs",
+    github: "https://github.com/acenasir/",
     resume: "http://acenasir.com",
   },
 ];
