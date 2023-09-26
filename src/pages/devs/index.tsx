@@ -11,7 +11,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { profiles, type Profile } from "@/data/profiles";
 import { searchInArray } from "@/lib/searchInArray";
-import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -83,12 +82,6 @@ export default function DevsPage() {
         {filteredProfiles.length === 0 && (
           <div className="flex w-full flex-col items-center justify-center text-center">
             <h1 className="text-2xl font-bold">No results found.</h1>
-            {/* <Button
-              onClick={() => setFilteredProfiles(profiles)}
-              className="mt-2"
-            >
-              Reset
-            </Button> */}
           </div>
         )}
         {filteredProfiles.map((profile) => (

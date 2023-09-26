@@ -23,7 +23,7 @@ export default function ProfileCard({
   resume,
 }: Profile) {
   return (
-    <Card className="flex max-w-[350px] flex-1 flex-col items-center justify-center gap-2 p-12">
+    <Card className="flex min-h-[400px] max-w-[330px] flex-1 flex-col items-center justify-center gap-2 p-12">
       {avatarImgSrc ? (
         <Avatar>
           <AvatarImage src={avatarImgSrc} alt={name} />
