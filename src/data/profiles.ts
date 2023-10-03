@@ -1,3 +1,5 @@
+import { type TechSlug } from "@/lib/tech.data";
+
 export interface Profile {
   name: string;
   title: string;
@@ -7,6 +9,7 @@ export interface Profile {
   linkedin?: string;
   github?: string;
   resume?: string;
+  techs?: TechSlug[]; // You can only add 3 techs
 }
 
 export const profiles: Profile[] = [
@@ -20,6 +23,7 @@ export const profiles: Profile[] = [
     linkedin: "https://www.linkedin.com/in/forestpark/",
     github: "https://github.com/foresthpark",
     resume: "https://resume.forestp.dev",
+    techs: ["react", "nodejs", "typescript"],
   },
   {
     name: "Yves Dorfsman",
@@ -35,8 +39,7 @@ export const profiles: Profile[] = [
   {
     name: "Danielle Bastien",
     title: "Web Accessibility | Design Systems | Front-End Development",
-    avatarImgSrc:
-      "https://img.daniellemlbastien.com/dmlb-avatar.png",
+    avatarImgSrc: "https://img.daniellemlbastien.com/dmlb-avatar.png",
     email: "info@daniellemlbastien.com",
     website: "https://daniellemlbastien.com/",
     linkedin: "https://www.linkedin.com/in/daniellemlbastien",
@@ -46,8 +49,7 @@ export const profiles: Profile[] = [
   {
     name: "Derek Kim",
     title: "iOS | Flutter Developer",
-    avatarImgSrc:
-      "https://derek.kim/img/profile.jpg",
+    avatarImgSrc: "https://derek.kim/img/profile.jpg",
     email: "dk@derek.kim",
     website: "https://derek.kim",
     linkedin: "https://www.linkedin.com/in/derekhskim",
@@ -57,8 +59,7 @@ export const profiles: Profile[] = [
   {
     name: "Ace Nasir",
     title: "Web | Wordpress Developer",
-    avatarImgSrc:
-      "http://acenasir.com/assets/img/profile.jpg",
+    avatarImgSrc: "http://acenasir.com/assets/img/profile.jpg",
     email: "ace.nasir@me.com",
     website: "http://acenasir.com",
     linkedin: "https://www.linkedin.com/in/ace-nasir-abb47249/",
