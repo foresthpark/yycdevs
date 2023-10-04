@@ -817,6 +817,13 @@ export const techData: Tech[] = [
   },
 ];
 
+export const techSelectOptions = techData
+  .map((tech) => ({
+    slug: tech.slug,
+    label: tech.label,
+  }))
+  .sort((a, b) => a.label.localeCompare(b.label));
+
 interface Tech {
   slug: string;
   label: string;

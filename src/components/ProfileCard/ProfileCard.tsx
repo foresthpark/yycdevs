@@ -27,7 +27,7 @@ export default function ProfileCard({
 }: Profile) {
   return (
     <Card>
-      <div className="flex min-h-[400px] max-w-[330px] flex-1 flex-col items-center justify-center gap-6 p-12">
+      <div className="flex max-h-[400px] min-h-[400px] min-w-[330px] max-w-[330px] flex-1 flex-col items-center justify-center gap-6 p-12">
         {avatarImgSrc ? (
           <Avatar>
             <AvatarImage src={avatarImgSrc} alt={name} />
