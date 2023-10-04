@@ -53,7 +53,7 @@ export default function DevsPage() {
 
   return (
     <div className="min-h-full w-full">
-      <div className="flex flex-row items-start justify-between gap-2 p-2">
+      <div className="flex flex-row flex-wrap items-start justify-between gap-2 p-2 md:flex-nowrap">
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}

@@ -23,7 +23,7 @@ export const profiles: Profile[] = [
     linkedin: "https://www.linkedin.com/in/forestpark/",
     github: "https://github.com/foresthpark",
     resume: "https://resume.forestp.dev",
-    techs: ["react", "nodejs", "typescript"],
+    techs: ["github", "html", "typescript"],
   },
   {
     name: "Yves Dorfsman",
