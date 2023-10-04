@@ -12,7 +12,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { profiles, type Profile } from "@/data/profiles";
 import { searchInArray } from "@/lib/searchInArray";
-import { type TechSlug, techSelectOptions } from "@/lib/tech.data";
+import { techSelectOptions, type TechSlug } from "@/lib/tech.data";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -88,7 +88,7 @@ export default function DevsPage() {
               className={`w-full sm:w-36 ${
                 isSearching ? "text-destructive" : ""
               }`}
-              type="submit"
+              type={isSearching ? "button" : "submit"}
               variant={isSearching ? "border" : "default"}
               onClick={isSearching ? onResetSearch : undefined}
             >
