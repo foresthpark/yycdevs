@@ -66,4 +66,15 @@ export const profiles: Profile[] = [
     github: "https://github.com/acenasir/",
     resume: "http://acenasir.com",
   },
+  {
+    name: "Carson Hartley",
+    title: "Web Developer",
+    avatarImgSrc: "https://carsonhartley.com/_next/image?url=%2Fimages%2FMeAndMelba.webp&w=1920&q=75",
+    email: "chartley1988@gmail.com",
+    website: "https://carsonhartley.com/",
+    linkedin: "https://www.linkedin.com/in/carson-hartley-00930b269/",
+    github: "https://github.com/chartley1988",
+    resume: "https://carsonhartley.com/resume",
+    techs: ["javascript", "godot", "css"]
+  }
 ];
