@@ -810,6 +810,18 @@ export const techData: Tech[] = [
       "https://user-images.githubusercontent.com/25181517/186884159-4b5e122b-95de-4a32-b10b-7f6fdffa4c5a.png",
   },
   {
+    slug: "linux-ubuntu",
+    label: "Linux Ubuntu",
+    imgUrl:
+      "https://user-images.githubusercontent.com/25181517/186884153-99edc188-e4aa-4c84-91b0-e2df260ebc33.png",
+  },
+  {
+    slug: "linux-fedora",
+    label: "Linux Fedora",
+    imgUrl:
+      "https://user-images.githubusercontent.com/25181517/186885787-4011a347-1f68-472c-bf8b-31ed1bb4f8ce.png",
+  },
+  {
     slug: "elementary-os",
     label: "elementary OS",
     imgUrl:
@@ -966,6 +978,8 @@ export const slugs = [
   "fedora",
   "arch-linux",
   "linux-mint",
+  "linux-ubuntu",
+  "linux-fedora",
   "elementary-os",
 ] as const;
 
