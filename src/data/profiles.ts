@@ -35,6 +35,7 @@ export const profiles: Profile[] = [
     linkedin: "https://www.linkedin.com/in/yvesdorfsman",
     github: "https://github.com/dorfsmay",
     resume: "https://yves.zioup.com/work/resume",
+    techs: ["react", "python", "rust" ],
   },
   {
     name: "Danielle Bastien",
