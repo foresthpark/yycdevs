@@ -55,6 +55,6 @@ Thank you for adding your profile to YYC Devs!!
 
 ## TODOS:
 
-- [ ] Add Skills to Profile
+- [x] Add Skills to Profile
 - [ ] Add dark mode
 - [ ] Some more stuffs
